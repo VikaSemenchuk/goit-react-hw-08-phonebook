@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { logOutRequest } from 'redux/auth/operations';
 import { selectIsLoggedIn, selectUserData } from 'redux/auth/selectors';
 
-import { Button } from 'components/styles/Button.styled';
+import { Button } from 'styles/Button.styled';
 import {
   AuthWrapper,
   GreetingText,

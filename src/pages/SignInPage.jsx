@@ -5,7 +5,7 @@ import { useNavigate } from 'react-router-dom';
 import { selectAuthError, selectIsLoggedIn } from 'redux/auth/selectors';
 import { loginRequest } from 'redux/auth/operations';
 import { toast } from 'react-toastify';
-import { PageContainer } from 'components/styles/PageContainer';
+import { PageContainer } from 'styles/PageContainer';
 import AuthForm from 'components/Forms/AuthForm';
 
 function SignInPage() {
@@ -28,8 +28,7 @@ function SignInPage() {
 
   return (
     <PageContainer>
-      <h1 className='hidden'>Sign-in page</h1>
-      {/* {error !== null && <p>Oops, some error occured... {error}</p>} */}
+      <h1 className="hidden">Sign-in page</h1>
       <AuthForm onSubmit={handleLogin} isLoginForm />
     </PageContainer>
   );

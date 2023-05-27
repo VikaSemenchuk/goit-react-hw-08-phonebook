@@ -3,10 +3,10 @@ import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import { selectStatus } from 'redux/auth/selectors';
 
-import { Button } from 'components/styles/Button.styled';
+import { Button } from 'styles/Button.styled';
 import Loader from 'components/loader/Loader';
 
-import { Input, Label } from 'components/styles/Form.styled';
+import { Input, Label } from 'styles/Form.styled';
 import { StyledForm } from './AuthForm.styled';
 
 function AuthForm({ onSubmit, isLoginForm = false }) {

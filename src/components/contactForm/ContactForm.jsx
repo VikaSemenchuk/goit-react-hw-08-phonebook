@@ -5,8 +5,8 @@ import { selectContacts } from 'redux/contacts/selectors';
 import { addContactRequest } from 'redux/contacts/operations';
 import { toast } from 'react-toastify';
 
-import { Input, Label } from 'components/styles/Form.styled';
-import { Button } from 'components/styles/Button.styled';
+import { Input, Label } from 'styles/Form.styled';
+import { Button } from 'styles/Button.styled';
 
 export function ContactForm() {
   const [name, setName] = useState('');

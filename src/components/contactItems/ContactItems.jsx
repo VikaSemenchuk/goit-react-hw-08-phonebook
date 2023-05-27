@@ -3,7 +3,7 @@ import { useDispatch } from 'react-redux';
 import { deleteContactRequest } from 'redux/contacts/operations';
 
 import { toast } from 'react-toastify';
-import { Button } from 'components/styles/Button.styled';
+import { Button } from 'styles/Button.styled';
 import { NameNumberWrapper, StyledIconItem } from './ContactItems.styled';
 
 export const ContactItems = ({ name, number, id }) => {

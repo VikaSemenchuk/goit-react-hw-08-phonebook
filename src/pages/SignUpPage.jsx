@@ -5,10 +5,8 @@ import { useNavigate } from 'react-router-dom/dist';
 import { registerRequest } from 'redux/auth/operations';
 import { selectAuthError, selectIsLoggedIn } from 'redux/auth/selectors';
 
-// import SignUpForm from 'components/Forms/AuthForm';
 import { toast } from 'react-toastify';
-// import css from '../components/App.module.css';
-import { PageContainer } from 'components/styles/PageContainer';
+import { PageContainer } from 'styles/PageContainer';
 import AuthForm from 'components/Forms/AuthForm';
 
 const SignUpPage = () => {
@@ -37,8 +35,7 @@ const SignUpPage = () => {
     <PageContainer>
       <section>
         <div>
-          <h1 className='hidden'>Register page</h1>
-          {/* {error  && toast.error('Sorry, something went wrong')} */}
+          <h1 className="hidden">Register page</h1>
           <AuthForm onSubmit={handleRegister} />
         </div>
       </section>
