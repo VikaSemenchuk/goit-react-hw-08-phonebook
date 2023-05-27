@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/382.c52d0a20.chunk.css","mappings":"AAIA,kDACE,kBACF","sources":["components/filter/Filter.module.css"],"sourcesContent":[".filter {\n  margin-bottom: 10px;\n}\n\n.filterTitle {\n  margin-bottom: 10px;\n}\n"],"names":[],"sourceRoot":""}
